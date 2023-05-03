@@ -3,8 +3,8 @@ To run test please clone the repository and run npm install. Please note that yo
 
 I added .env file to .gitignore and left env_example like I would do in real project to avoid storing login data publicly. I thought that for recruitment purposes it would be easier to store real data in env_example to give you a possibility to clone them together with the repository. To run the tests please add .env file in the project root and use data from env_example.
 
-To run the particular test please run: npx playwright test test-relative-path
-To run all the test please run: npx playwright test tests/*
+- To run the particular test please run: npx playwright test test-relative-path
+- To run all the test please run: npx playwright test tests/*
 
 Because all the tests recquired login as the first step I included login proccess in global setup and stored it in session storage.
 
